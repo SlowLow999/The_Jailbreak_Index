@@ -1,6 +1,6 @@
 # The Jailbreak Index
 
-### A Curated Database for AI Security Researchers
+### A Curated Database for AI Red Teaming Researchers
 
 ---
 
