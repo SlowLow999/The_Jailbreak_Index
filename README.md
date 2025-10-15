@@ -4,7 +4,7 @@
 
 ---
 
-#### [View the Live Index](https://your-url-goes-here)
+#### [View the Live Index]([https://your-url-goes-here](https://slowlow999.github.io/The_Jailbreak_Index/))
 
 
 
