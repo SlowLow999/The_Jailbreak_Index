@@ -1,53 +1,50 @@
 # The Jailbreak Index
 
-### Your Field Guide to AI Jailbreaking
+### A Curated Database for AI Security Researchers
 
 ---
 
-#### ➡️ [Check out the live index here](https://your-url-goes-here)
+#### [View the Live Index](https://your-url-goes-here)
 
 
 
-## What's This All About?
+## About This Project
 
-Tired of hitting the "As a large language model..." wall? So were we.
+The Jailbreak Index is a centralized, open-source project designed to track and analyze prompt injection vulnerabilities in prominent AI models. The goal is to consolidate scattered research into a single, accessible database for security researchers, red teamers, and developers.
 
-**The Jailbreak Index** is a live-fire database of what works, what doesn't, and how hard it is to break the latest and greatest AI models. We've scraped the data from over 18+ security reports and academic papers so you don't have to wade through them yourself.
+This index aggregates and standardizes data from over 18 peer-reviewed studies and security reports published between 2024 and 2025. It is presented in a self-contained, single-page application with a user interface designed for clarity and rapid assessment.
 
-It's a practical resource for red teamers, security researchers, and anyone who enjoys poking the bear. And we wrapped it all in a cyberpunk-themed UI because, let's be honest, it looks cool.
+## Key Features
 
-## What's Inside?
+* **Comprehensive Database:** In-depth security analysis of 38+ models from leading AI labs, including OpenAI, Google, Anthropic, and Mistral.
+* **Standardized Difficulty Ratings:** A consistent 1-to-5 scale is used to rate the difficulty of bypassing a model's safety protocols, allowing for direct comparison.
+* **Detailed Vulnerability Data:** Each entry includes insights into primary attack vectors (e.g., Adaptive Attacks, Timed-Release), documented success rates, and relevant notes from the source material.
+* **Data Visualization:** The summary section includes an interactive chart that provides a high-level overview of the security landscape across all cataloged models.
+* **Single-File Architecture:** The entire project is contained within a single `index.html` file, making it highly portable and easy to host or run locally.
 
-* **The Hit List:** Full security reports on 38+ models from the big players (OpenAI, Google, Anthropic, etc.).
-* **Difficulty Ratings:** A simple 1-5 scale so you know if you'll need 5 minutes or 5 hours for a successful break.
-* **Known Exploits:** See the most effective attack vectors at a glance, from simple roleplaying to complex, multi-shot attacks.
-* **The Source:** All the original papers and reports are linked, so you can go down the rabbit hole yourself.
-* **Slick UI:** It's a single HTML file with a slick interface, matrix background included. No heavy frameworks, no nonsense.
+## Tech Stack
 
-## The Tech Stuff
+The project is built with a focus on simplicity and performance, using fundamental web technologies:
 
-No bloated frameworks here. This project is intentionally simple:
-
-* **HTML**
+* **HTML5**
 * **Tailwind CSS**
 * **Vanilla JavaScript**
 * **Chart.js**
 
-## Get Involved
+## How to Contribute
 
-Found a new exploit? Got updated data on a model? Don't keep it to yourself.
+Contributions are welcome and essential for keeping the index current. If you have new data or would like to suggest an improvement, please follow this process:
 
-This is a community project. The easiest way to contribute is to:
-1.  Fork the repo.
-2.  Update the `index.html` file with your new info.
-3.  Shoot over a pull request.
+1.  Fork the repository.
+2.  Make your changes or additions directly within the `index.html` file.
+3.  Submit a pull request with a clear title and a description of the changes.
 
-You can also just open an issue with your findings and links.
+Alternatively, you can open a GitHub Issue to submit new findings or discuss potential changes.
 
-## The Usual Disclaimer
+## Disclaimer
 
-This is for educational and research purposes. We're here to test boundaries and help make AI safer (by showing where it's broken). Don't do anything stupid. We're not responsible if you get your API key banned or set off a minor AI apocalypse.
+The information provided in The Jailbreak Index is for educational and research purposes only. It is intended to contribute to the responsible disclosure of vulnerabilities and aid in the development of more secure and robust AI systems.
 
 ## License
 
-It's MIT licensed. Do what you want with it.
+This project is distributed under the MIT License.
