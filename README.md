@@ -1,5 +1,7 @@
 # The Jailbreak Index
 
+<img width="400" height="450" alt="17605651021168136452922902279800" src="https://github.com/user-attachments/assets/3ea91876-b50c-49cc-a0b3-b934ca01618c" />
+
 ### A Curated Database for AI Red Teaming Researchers
 
 ---
