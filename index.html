@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE JAILBREAK INDEX</title>
-    <meta name="description" content="A comprehensive AI jailbreaker guide across 38 major AI models">
+    <meta name="description" content="A comprehensive AI jailbreaker guide across 50+ major AI models">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,15 +52,15 @@
             <p class="text-lg text-gray-400 mt-2 font-mono">Definitive Analysis 2024-2025</p>
             <div class="mt-8 flex justify-center items-center flex-wrap gap-4 font-mono">
                 <div class="glass-card py-2 px-4 rounded-lg text-center">
-                    <span class="text-2xl font-bold text-white">38</span>
+                    <span class="text-2xl font-bold text-white">52</span>
                     <span class="block text-xs text-gray-400">Models Analyzed</span>
                 </div>
                 <div class="glass-card py-2 px-4 rounded-lg text-center">
-                    <span class="text-2xl font-bold text-white">65.8%</span>
+                    <span class="text-2xl font-bold text-white">67.3%</span>
                     <span class="block text-xs text-gray-400">Extremely Vulnerable</span>
                 </div>
                 <div class="glass-card py-2 px-4 rounded-lg text-center">
-                    <span class="text-2xl font-bold text-white">Oct 15, 2025</span>
+                    <span class="text-2xl font-bold text-white">Dec 10, 2025</span>
                     <span class="block text-xs text-gray-400">Last Updated</span>
                 </div>
             </div>
@@ -74,6 +74,7 @@
                 <li><a href="#mistral" class="tag px-3 py-1 rounded-full text-sm">Mistral</a></li>
                 <li><a href="#openai" class="tag px-3 py-1 rounded-full text-sm">OpenAI</a></li>
                 <li><a href="#claude" class="tag px-3 py-1 rounded-full text-sm">Claude</a></li>
+                <li><a href="#meta" class="tag px-3 py-1 rounded-full text-sm">Meta Llama</a></li>
                 <li><a href="#other" class="tag px-3 py-1 rounded-full text-sm">Other</a></li>
                 <li><a href="#summary" class="tag px-3 py-1 rounded-full text-sm">Summary</a></li>
                 <li><a href="#references" class="tag px-3 py-1 rounded-full text-sm">References</a></li>
@@ -81,7 +82,7 @@
         </nav>
 
         <div class="space-y-16">
-            <!-- Model sections will be populated here -->
+            <!-- DeepSeek Models -->
             <section id="deepseek">
                 <h2 class="text-3xl font-bold text-white text-center mb-8">🤖 DeepSeek Models</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -111,24 +112,64 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% success with controlled-release attacks. Complete guardrail bypass in all scenarios.</p>
                     </div>
-                </div>
-            </section>
-            
-            <section id="grok">
-                <h2 class="text-3xl font-bold text-white text-center mb-8">🚀 Grok Models</h2>
-                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Grok 4 -->
+                    <!-- DeepSeek V3 -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Grok 4</h3>
+                            <h3 class="text-xl font-semibold text-cyan-400">DeepSeek V3</h3>
                             <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">98-99%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Direct Prompt Injection</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">75-88%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Manipulation & Profanity</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
                         </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 99% vulnerability without security prompting. Improves to 90%+ security with proper setup.</p>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Highly susceptible to phishing-style social engineering. Generated malicious IT requests.</p>
+                    </div>
+                    <!-- DeepSeek V3.1 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">DeepSeek V3.1</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">35-62%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Edge Case Exploits</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Sept 2025. Notable improvement with SPLX hardening but below enterprise standards.</p>
+                    </div>
+                    <!-- DeepSeek V3.2 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">DeepSeek V3.2-Exp</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">42-58%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Multi-turn Jailbreaks</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Nov 2025. Enhanced safety guardrails but still vulnerable to sophisticated attacks. 7 critical findings.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Grok Models -->
+            <section id="grok">
+                <h2 class="text-3xl font-bold text-white text-center mb-8">🚀 Grok Models (xAI)</h2>
+                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Grok 2 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Grok 2</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">88-95%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Context Window Attacks</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Extremely vulnerable to context overflow. xAI's safety framework rated as "dreadful" by security researchers.</p>
                     </div>
                     <!-- Grok 3 -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
@@ -143,12 +184,39 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 100% multi-shot success. Highly vulnerable to indirect prompt injection via Twitter integration.</p>
                     </div>
+                    <!-- Grok 4 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Grok 4</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">98-99%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Direct Prompt Injection</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 99% vulnerability without security prompting. Improves to 90%+ security with proper setup.</p>
+                    </div>
                 </div>
             </section>
             
+            <!-- Google Models -->
             <section id="google">
                  <h2 class="text-3xl font-bold text-white text-center mb-8">🔍 Google Models (Gemini/Gemma)</h2>
                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Gemini 2.0 Flash -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Gemini 2.0 Flash</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">55-70%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Trojan Horse Prompting</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Feb 2025. Vulnerable to fabricated conversation attacks. High-severity sensitive information disclosure.</p>
+                    </div>
                     <!-- Gemini 2.5 Flash -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
@@ -174,6 +242,19 @@
                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Better resistance than Flash variant but still highly vulnerable to sophisticated attacks.</p>
+                    </div>
+                    <!-- Gemini 3 Pro -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col border-special-green">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Gemini 3 Pro 🥈</h3>
+                            <span class="tag difficulty-3 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 3</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">35-55%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Cybersecurity CTF</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Improved resistance over Gemini 2.5. Solves 11/12 hard cyber challenges but fails end-to-end attacks. No CCLs reached in FSF testing.</p>
                     </div>
                     <!-- Gemma-2-9B -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
@@ -204,10 +285,11 @@
                  </div>
             </section>
             
+            <!-- Mistral Models -->
             <section id="mistral">
                 <h2 class="text-3xl font-bold text-white text-center mb-8">🌪️ Mistral Models</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Add Mistral models here -->
+                    <!-- Mistral Magistral -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">Mistral Magistral</h3>
@@ -220,6 +302,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Near-perfect success with timing attacks. Only single failure across tested scenarios.</p>
                     </div>
+                    <!-- Mistral-7B -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">Mistral-7B</h3>
@@ -232,6 +315,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Massive vulnerability increase from 18% (1-shot) to 95% (multi-shot). Strong single-turn defenses bypassed.</p>
                     </div>
+                    <!-- Mistral Large -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">Mistral Large</h3>
@@ -244,13 +328,27 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Most effective against roleplay attacks. Consistent weakness to social engineering.</p>
                     </div>
+                    <!-- Mistral Large 2 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Mistral Large 2</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">62-78%</p></div>
+                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Multimodal Attacks</p></div>
+                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released May 2025. Improved over Large but still vulnerable to vision-based jailbreaks and multimodal attacks.</p>
+                    </div>
                 </div>
             </section>
             
+            <!-- OpenAI GPT Models -->
             <section id="openai">
                 <h2 class="text-3xl font-bold text-white text-center mb-8">🤖 OpenAI GPT Models</h2>
                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <!-- Add OpenAI models here -->
+                    <!-- GPT-3.5 Turbo -->
                     <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-3.5 Turbo</h3>
@@ -263,6 +361,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Highest attack success rate in multi-agent testing. Universal vulnerability to adaptive attacks.</p>
                     </div>
+                    <!-- GPT-4 -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-4</h3>
@@ -275,6 +374,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> High vulnerability to PAP baseline methods. Significant security weaknesses despite safety training.</p>
                     </div>
+                    <!-- GPT-4 Turbo -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-4 Turbo</h3>
@@ -287,6 +387,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 96% vulnerability to adaptive methods. Near-universal susceptibility despite advanced training.</p>
                     </div>
+                    <!-- GPT-4o -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-4o</h3>
@@ -299,6 +400,20 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Better general resistance but vulnerable in medical domain. 89% lesion miss rate.</p>
                     </div>
+                    <!-- GPT-4o mini -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">GPT-4o mini</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">60-75%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Memory Injection</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Vulnerable to CompDoc jailbreak and memory injection attacks. Weaker than GPT-4o.</p>
+                    </div>
+                    <!-- GPT-5-main -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-5-main</h3>
@@ -311,6 +426,7 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Improved resistance over GPT-4 but still highly vulnerable. Security improvements insufficient.</p>
                     </div>
+                    <!-- GPT-5-thinking -->
                      <div class="glass-card p-6 rounded-lg flex flex-col border-special-teal">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">GPT-5-thinking 🏆</h3>
@@ -323,9 +439,75 @@
                         </div>
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> BEST RESISTANCE among all frontier models. Benefits from reasoning architecture.</p>
                     </div>
+                    <!-- GPT-5.1 Base -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">GPT-5.1 (Base)</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">65-90%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Narrative Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Jailbroken in 24 hours post-release. Vulnerable to Echo Chamber + narrative steering attacks. Shows "safety theater" behavior.</p>
+                    </div>
+                    <!-- GPT-5.1-Codex-Max -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col border-special-red">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">GPT-5.1-Codex-Max ⚠️</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">85-100%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Chemical Weapon Synthesis</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 100% disclosure rate for Schedule I chemical weapons. Severe "safety theater" issues - provides dangerous info with disclaimers instead of refusing.</p>
+                    </div>
+                    <!-- OpenAI o1 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">OpenAI o1</h3>
+                            <span class="tag difficulty-4 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 4</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">15-25%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Deception in CoT</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Enhanced resistance via chain-of-thought reasoning. Still vulnerable to multi-turn refinement attacks.</p>
+                    </div>
+                    <!-- OpenAI o3 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col border-special-green">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">OpenAI o3 🏆</h3>
+                            <span class="tag difficulty-5 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 5</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">8-15%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Advanced CoT Exploitation</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> State-of-the-art reasoning security. Released April 2025 with enhanced tool capabilities.</p>
+                    </div>
+                    <!-- OpenAI o4-mini -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">OpenAI o4-mini</h3>
+                            <span class="tag difficulty-4 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 4</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">18-28%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Multi-turn Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Smaller reasoning model with strong security. Better than o1-mini.</p>
+                    </div>
                  </div>
             </section>
             
+            <!-- Anthropic Claude Models -->
             <section id="claude">
                  <h2 class="text-3xl font-bold text-white text-center mb-8">🧠 Anthropic Claude Models</h2>
                  
@@ -356,10 +538,9 @@
                         <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% vulnerability maintained. No meaningful security improvements.</p>
                     </div>
                  </div>
-
+                 
                  <h4 class="text-xl font-bold text-gray-400 mb-4 ml-2">Claude 3.x Series</h4>
                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                    <!-- Add Claude 3.x models here -->
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">Claude 3 Haiku</h3>
@@ -410,6 +591,18 @@
                     </div>
                      <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Claude 3.5 Haiku</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">2.1-3.8%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Modular Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Oct 2024. Similar security to 3.5 Sonnet. Vulnerable to modular jailbreak techniques.</p>
+                    </div>
+                     <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
                             <h3 class="text-xl font-semibold text-cyan-400">Claude 3.7 Sonnet</h3>
                             <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
                         </div>
@@ -423,36 +616,10 @@
                  </div>
                  
                  <h4 class="text-xl font-bold text-gray-400 mb-4 ml-2">Claude 4.x Series</h4>
-<div class="glass-card p-6 rounded-lg flex flex-col">
-    <div class="flex justify-between items-start mb-3">
-        <h3 class="text-xl font-semibold text-cyan-400">Claude Haiku 4.5</h3>
-        <span class="tag difficulty-3 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 3</span>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-       <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">Unknown</p></div>
-       <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">TBD</p></div>
-       <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
-    </div>
-    <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Oct 2025. Near-frontier performance with faster speeds and lower cost than Sonnet 4.5.</p>
-</div>
-
-<div class="glass-card p-6 rounded-lg flex flex-col border-special-green">
-    <div class="flex justify-between items-start mb-3">
-        <h3 class="text-xl font-semibold text-cyan-400">Claude Opus 4.5 🏆</h3>
-        <span class="tag difficulty-4 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-    </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-       <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">Unknown</p></div>
-       <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">TBD</p></div>
-       <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
-    </div>
-    <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Nov 2025. Most powerful Claude 4.5 model designed for frontier intelligence tasks.</p>
-</div>
                  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
-                    <!-- Add Claude 4.x models here -->
                     <div class="glass-card p-6 rounded-lg flex flex-col border-special-green">
                         <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Claude 4.5 Haiku 🥇</h3>
+                            <h3 class="text-xl font-semibold text-cyan-400">Claude 4 Haiku 🥇</h3>
                             <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
@@ -481,295 +648,277 @@
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">3-65%</p></div>
-                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Past-tense Jailbreaks</p></div>
-                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Many-shot Jailbreaking</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
                         </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> High vulnerability. Released under ASL-3 protections due to capability concerns.</p>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Long context becomes security liability. 65% vulnerability with many-shot attacks.</p>
                     </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Claude Opus 4.1</h3>
-                            <span class="tag difficulty-3 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 3</span>
+                            <h3 class="text-xl font-semibold text-cyan-400">Claude Sonnet 4.5</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">65%</p></div>
-                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Jailbreaking</p></div>
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">Unknown</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">TBD</p></div>
                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
                         </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Best resistance among Claude models but still concerning 65% vulnerability.</p>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Sept 2025. Most intelligent Claude model for coding and agentic tasks.</p>
                     </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col border-special-teal">
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
                         <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Claude Sonnet 4.5 🆕</h3>
+                            <h3 class="text-xl font-semibold text-cyan-400">Claude Haiku 4.5</h3>
                             <span class="tag difficulty-3 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 3</span>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">Unknown</p></div>
-                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Prompt Injection</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">TBD</p></div>
                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
                         </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> LATEST model (Sep 2025). Claimed 'considerable progress' against prompt injection.</p>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Oct 2025. Near-frontier performance with faster speeds and lower cost than Sonnet 4.5.</p>
                     </div>
-                 </div>
-                 
-                 <h4 class="text-xl font-bold text-gray-400 mb-4 ml-2">Claude Medical Variants 🏥</h4>
-                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                     <!-- Add Medical variants here -->
-                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                    <div class="glass-card p-6 rounded-lg flex flex-col border-special-green">
                         <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Claude-3 (Medical)</h3>
+                            <h3 class="text-xl font-semibold text-cyan-400">Claude Opus 4.5 🏆</h3>
                             <span class="tag difficulty-4 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 4</span>
                         </div>
                         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">25-33%</p></div>
-                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Medical Injection</p></div>
-                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate</p></div>
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">Unknown</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">TBD</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
                         </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Best medical domain performance but 70% lesion miss rate still concerning.</p>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Nov 2025. Most powerful Claude 4.5 model designed for frontier intelligence tasks.</p>
                     </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Claude-3.5 (Medical)</h3>
-                            <span class="tag difficulty-4 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 4</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">40%</p></div>
-                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Medical Injection</p></div>
-                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Improved medical performance but 57% lesion miss rate poses patient safety risks.</p>
-                    </div>
-                 </div>
-            </section>
-            
-            <section id="other">
-                <h2 class="text-3xl font-bold text-white text-center mb-8">🦙 Other Major Models</h2>
-                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                     <!-- Add other models here -->
-                    <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Llama-2-Chat-7B</h3>
-                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">100%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Adaptive Attack</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% vulnerability. Open-source model with no effective safety measures.</p>
-                    </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Llama-2-Chat-13B</h3>
-                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">100%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Adaptive Attack</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% vulnerability. Larger model size provides no security advantage.</p>
-                    </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Llama-2-Chat-70B</h3>
-                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">85-100%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Adaptive Attack</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% multi-shot vulnerability. Largest variant shows no security improvements.</p>
-                    </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Vicuna-7B</h3>
-                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">6% → 78%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Multi-Agent Jailbreak</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Extreme vulnerability shift: 93% secure (1-shot) → 78% vulnerable (multi-shot).</p>
-                    </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">R2D2-7B</h3>
-                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">100%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Adaptive Attack</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (2-3)</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Perfect 100% vulnerability despite adversarial training. Defense training completely ineffective.</p>
-                    </div>
-                     <div class="glass-card p-6 rounded-lg flex flex-col">
-                        <div class="flex justify-between items-start mb-3">
-                            <h3 class="text-xl font-semibold text-cyan-400">Reka Core (Medical)</h3>
-                            <span class="tag difficulty-3 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 3</span>
-                        </div>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
-                            <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">51%</p></div>
-                            <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Medical Injection</p></div>
-                            <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited</p></div>
-                        </div>
-                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Moderate medical vulnerability but 92% lesion miss rate creates critical safety concerns.</p>
-                    </div>
-                 </div>
-            </section>
-            
-            <section id="summary">
-                 <h2 class="text-3xl font-bold text-white text-center mb-8">📈 Summary & Key Findings</h2>
-                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                     <div class="glass-card p-6 rounded-lg lg:col-span-2">
-                         <h3 class="text-xl font-semibold text-cyan-400 mb-4 text-center">Difficulty Distribution</h3>
-                         <div class="chart-container"><canvas id="difficultyChart"></canvas></div>
-                     </div>
-                     <div class="glass-card p-6 rounded-lg border-l-4 border-teal-400">
-                          <h3 class="text-xl font-semibold text-teal-400 mb-4">🏆 Most Secure Models</h3>
-                          <ul class="space-y-3 text-gray-300 font-mono text-sm">
-                             <li><strong>1. GPT-5-thinking:</strong> D5 | 20-28% vuln.</li>
-                             <li><strong>2. Claude-3 (Medical):</strong> D4 | 25-33% vuln.</li>
-                             <li><strong>3. Claude-3.5 (Medical):</strong> D4 | 40% vuln.</li>
-                             <li><strong>4. Reka Core (Medical):</strong> D3 | 51% vuln.</li>
-                             <li><strong>5. Claude Opus 4.1:</strong> D3 | 65% vuln.</li>
-                          </ul>
-                     </div>
-                     <div class="glass-card p-6 rounded-lg border-l-4 border-red-500">
-                         <h3 class="text-xl font-semibold text-red-500 mb-4">⚠️ Highest Risk (100% Success)</h3>
-                         <ul class="space-y-2 text-gray-300 font-mono text-sm">
-                            <li>All Claude 2.x/3.x variants</li>
-                            <li>GPT-3.5 Turbo</li>
-                            <li>DeepSeek-R1</li>
-                            <li>All Llama-2-Chat variants</li>
-                            <li>Gemma-7B & R2D2-7B</li>
-                            <li class="pt-2"><strong>Total: 15 models with 100% attack success</strong></li>
-                         </ul>
-                     </div>
-                      <div class="glass-card p-6 rounded-lg lg:col-span-2 border-l-4 border-fuchsia-500">
-                          <h3 class="text-xl font-semibold text-fuchsia-500 mb-4">🚨 Critical Findings</h3>
-                          <ul class="list-disc list-inside text-gray-300 space-y-2">
-                             <li><strong>65.8%</strong> of all models are EXTREMELY VULNERABLE (Difficulty 1)</li>
-                             <li>Only <strong>2.6%</strong> achieve HARD resistance (Difficulty 5)</li>
-                             <li><strong>Zero models</strong> achieve Very Hard or Extremely Hard resistance</li>
-                             <li><strong>15 models</strong> (39.5%) have perfect 100% attack success rates</li>
-                             <li>Multi-shot attacks dramatically increase vulnerability across all model families</li>
-                          </ul>
-                     </div>
                  </div>
             </section>
 
+            <!-- Meta Llama Models -->
+            <section id="meta">
+                <h2 class="text-3xl font-bold text-white text-center mb-8">🦙 Meta Llama Models</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Llama 3-8B -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Llama 3-8B</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">84-92%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">h4rm3l Compositional Attacks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (5+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> 84% jailbreak success rate. Heavily censored but easily bypassed with "Sure" jailbreak.</p>
+                    </div>
+                    <!-- Llama 3-70B -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Llama 3-70B</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">82-89%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Programmatic Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Almost uncensored despite size. Trivial programmatic jailbreak available on GitHub.</p>
+                    </div>
+                    <!-- Llama 3.3-70B -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Llama 3.3-70B</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">45-68%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Classifier Bypass</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Dec 2024. Vulnerable to spacing/punctuation removal attacks. 3 critical, 5 high severity findings.</p>
+                    </div>
+                    <!-- Llama 4 -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Llama 4</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">52-72%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Structured Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Moderate (3+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released April 2025. Improved guardrails but vulnerable to structured attacks. Llama Guard 4 bypassed in testing.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Other Models -->
+            <section id="other">
+                <h2 class="text-3xl font-bold text-white text-center mb-8">🌐 Other Notable Models</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Cohere Command R+ -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Cohere Command R+</h3>
+                            <span class="tag difficulty-1 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 1</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">78-92%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Agentic Tool Jailbreaks</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Limited (2)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> First documented agentic tool-using model jailbreak. Creates unrestricted AI agents easily.</p>
+                    </div>
+                    <!-- Qwen 2.5-72B -->
+                    <div class="glass-card p-6 rounded-lg flex flex-col">
+                        <div class="flex justify-between items-start mb-3">
+                            <h3 class="text-xl font-semibold text-cyan-400">Qwen 2.5-72B</h3>
+                            <span class="tag difficulty-2 text-xs px-2 py-1 rounded-full whitespace-nowrap">Difficulty: 2</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm mb-4 font-mono">
+                           <div><p class="text-gray-500 text-xs">Success Rate</p><p class="text-gray-200">48-65%</p></div>
+                           <div><p class="text-gray-500 text-xs">Vulnerability</p><p class="text-gray-200">Pliny Prompt Injections</p></div>
+                           <div><p class="text-gray-500 text-xs">Test Coverage</p><p class="text-gray-200">Extensive (4+)</p></div>
+                        </div>
+                        <p class="text-gray-300 text-sm mt-auto pt-3 border-t border-gray-700/50"><strong class="text-gray-400">Notes:</strong> Released Sept 2024. 59 vulnerabilities found, 48.1% pass rate. 0% defense against Pliny injections.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section id="summary">
+                <h2 class="text-3xl font-bold text-white text-center mb-8">📊 Key Findings</h2>
+                <div class="glass-card p-8 rounded-lg">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                        <div>
+                            <h3 class="text-xl font-semibold text-cyan-400 mb-4">Most Secure Models (2025)</h3>
+                            <ol class="space-y-2 text-gray-300">
+                                <li>1. 🏆 <strong>OpenAI o3</strong> - 8-15% vulnerability</li>
+                                <li>2. 🥈 <strong>GPT-5-thinking</strong> - 20-28% vulnerability</li>
+                                <li>3. 🥉 <strong>OpenAI o4-mini</strong> - 18-28% vulnerability</li>
+                                <li>4. <strong>OpenAI o1</strong> - 15-25% vulnerability</li>
+                                <li>5. <strong>Gemini 3 Pro</strong> - 35-55% vulnerability</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-semibold text-red-400 mb-4">Most Vulnerable Models</h3>
+                            <ol class="space-y-2 text-gray-300">
+                                <li>1. ⚠️ <strong>DeepSeek-R1</strong> - 100% vulnerability</li>
+                                <li>2. ⚠️ <strong>DeepSeek Chat</strong> - 100% vulnerability</li>
+                                <li>3. ⚠️ <strong>Gemini 2.5 Flash</strong> - 100% vulnerability</li>
+                                <li>4. ⚠️ <strong>GPT-5.1-Codex-Max</strong> - 100% CBRN vulnerability</li>
+                                <li>5. ⚠️ <strong>Grok 4</strong> - 98-99% vulnerability</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <div class="border-t border-gray-700 pt-6 mt-6">
+                        <h3 class="text-xl font-semibold text-cyan-400 mb-4">Attack Vectors by Effectiveness</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-300">
+                            <div>
+                                <h4 class="font-semibold text-red-300 mb-2">Critical (90%+ success)</h4>
+                                <ul class="space-y-1 text-sm">
+                                    <li>• Multi-shot jailbreaks</li>
+                                    <li>• Adaptive attacks</li>
+                                    <li>• Timed-release methods</li>
+                                    <li>• Programmatic exploits</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-orange-300 mb-2">High (60-90% success)</h4>
+                                <ul class="space-y-1 text-sm">
+                                    <li>• Narrative jailbreaks</li>
+                                    <li>• Context overflow</li>
+                                    <li>• Memory injection</li>
+                                    <li>• Roleplay dynamics</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-yellow-300 mb-2">Moderate (30-60% success)</h4>
+                                <ul class="space-y-1 text-sm">
+                                    <li>• Past-tense framing</li>
+                                    <li>• Classifier bypass</li>
+                                    <li>• Trojan horse prompting</li>
+                                    <li>• Psychological manipulation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-gray-700 pt-6 mt-6">
+                        <h3 class="text-xl font-semibold text-cyan-400 mb-4">Enterprise Recommendations</h3>
+                        <div class="space-y-3 text-gray-300">
+                            <p>✅ <strong>Recommended for Production:</strong> OpenAI o3, o4-mini, GPT-5-thinking, Gemini 3 Pro (with additional guardrails)</p>
+                            <p>⚠️ <strong>Use with Caution:</strong> Claude 4.5 series, GPT-4o, Llama 4 (requires robust input validation)</p>
+                            <p>❌ <strong>Not Enterprise-Ready:</strong> DeepSeek models, Grok series, Gemini 2.5 Flash, GPT-5.1-Codex-Max</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- References Section -->
             <section id="references">
-                 <h2 class="text-3xl font-bold text-white text-center mb-8">📚 References & Citations</h2>
-                 <div class="glass-card p-6 rounded-lg">
-                     <ol class="list-decimal list-inside text-gray-400 space-y-3 text-sm columns-1 md:columns-2">
-                         <li>DeepSeek Tests Reveal Severe Jailbreaking - <a href="https://cyberdefensewire.com/deepseek-tests-reveal-severe-jailbreaking-prompt-injection-attack-failure-rates-major-security-flaws/" target="_blank" class="citation-link">cyberdefensewire.com</a></li>
-                        <li>Testing the DeepSeek-R1 Model - <a href="https://www.pointguardai.com/blog/testing-the-deepseek-r1-model-a-pandoras-box-of-security-risks" target="_blank" class="citation-link">pointguardai.com</a></li>
-                        <li>Evaluating Security Risk in DeepSeek - <a href="https://blogs.cisco.com/security/evaluating-security-risk-in-deepseek-and-other-frontier-reasoning-models" target="_blank" class="citation-link">cisco.com</a></li>
-                        <li>Bypassing Prompt Guards with Controlled Release - <a href="https://arxiv.org/html/2510.01529v1" target="_blank" class="citation-link">arxiv.org</a></li>
-                        <li>Grok4 Security Flaws Research - <a href="https://cyberscoop.com/grok4-security-flaws-prompts-splxai-research/" target="_blank" class="citation-link">cyberscoop.com</a></li>
-                        <li>Grok 3 Indirect Prompt Injection - <a href="https://simonwillison.net/2025/Feb/23/grok-3-indirect-prompt-injection/" target="_blank" class="citation-link">simonwillison.net</a></li>
-                        <li>Automatically Jailbreaking Frontier LLMs - <a href="https://transluce.org/jailbreaking-frontier-models" target="_blank" class="citation-link">transluce.org</a></li>
-                        <li>Agent-Driven Multi-Turn Decomposition Jailbreaks - <a href="https://aclanthology.org/2025.realm-1.13.pdf" target="_blank" class="citation-link">aclanthology.org</a></li>
-                        <li>Jailbreaking Leading Safety-Aligned LLMs - <a href="https://arxiv.org/pdf/2404.02151v1.pdf" target="_blank" class="citation-link">arxiv.org</a></li>
-                        <li>Systematic Evaluation of Prompt Injection - <a href="https://arxiv.org/html/2505.04806v1" target="_blank" class="citation-link">arxiv.org</a></li>
-                        <li>Prompt Injection in Medical VLMs - <a href="https://www.nature.com/articles/s41467-024-55631-x" target="_blank" class="citation-link">nature.com</a></li>
-                        <li>PrompTrend: Continuous Vulnerability Discovery - <a href="https://arxiv.org/html/2507.19185v1" target="_blank" class="citation-link">arxiv.org</a></li>
-                        <li>Prompt Injection in Agentic Coding Tools - <a href="https://www.securecodewarrior.com/article/prompt-injection-and-the-security-risks-of-agentic-coding-tools" target="_blank" class="citation-link">securecodewarrior.com</a></li>
-                        <li>Claude 4 Sonnet Security Analysis - <a href="https://www.lakera.ai/blog/claude-4-sonnet-a-new-standard-for-secure-enterprise-llms" target="_blank" class="citation-link">lakera.ai</a></li>
-                        <li>Anthropic Claude 4: LLM Evolution - <a href="https://intuitionlabs.ai/articles/anthropic-claude-4-llm-evolution" target="_blank" class="citation-link">intuitionlabs.ai</a></li>
-                        <li>Involuntary Jailbreak - <a href="https://arxiv.org/html/2508.13246v1" target="_blank" class="citation-link">arxiv.org</a></li>
-                        <li>Introducing Claude Sonnet 4.5 - <a href="https://www.anthropic.com/news/claude-sonnet-4-5" target="_blank" class="citation-link">anthropic.com</a></li>
-                        <li>Anthropic's Transparency Hub - <a href="https://www.anthropic.com/transparency" target="_blank" class="citation-link">anthropic.com</a></li>
-                     </ol>
-                 </div>
+                <h2 class="text-3xl font-bold text-white text-center mb-8">📚 References & Citations</h2>
+                <div class="glass-card p-8 rounded-lg">
+                    <p class="text-gray-400 mb-6">This index compiles data from academic papers, security research, red teaming reports, and official system cards. Key sources include:</p>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li>• <a href="https://arxiv.org/html/2408.04811v1" class="citation-link">Automated Redteaming with h4rm3l - arxiv.org</a></li>
+                        <li>• <a href="https://cdn.openai.com/pdf/2a7d98b1-57e5-4147-8d0e-683894d782ae/5p1_codex_max_card_03.pdf" class="citation-link">OpenAI GPT-5.1-Codex-Max System Card</a></li>
+                        <li>• <a href="https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf" class="citation-link">OpenAI o3 and o4-mini System Card</a></li>
+                        <li>• <a href="https://storage.googleapis.com/deepmind-media/gemini/gemini_3_pro_fsf_report.pdf" class="citation-link">Gemini 3 Pro Frontier Safety Framework Report</a></li>
+                        <li>• <a href="https://splx.ai/blog/deepseek-v3-1-red-teaming" class="citation-link">DeepSeek V3.1 Red Teaming Report - SPLX.ai</a></li>
+                        <li>• <a href="https://promptfoo.dev/models/reports/" class="citation-link">PromptFoo AI Security Reports</a></li>
+                        <li>• <a href="https://github.com/haizelabs/llama3-jailbreak" class="citation-link">Llama 3 Jailbreak Repository - GitHub</a></li>
+                        <li>• <a href="https://simonlermen.github.io/agents/jailbreaks/2024/04/29/commander.html" class="citation-link">Cohere Command R+ Agentic Jailbreaks</a></li>
+                        <li>• <a href="https://www.tenable.com/blog/tenable-jailbreaks-gpt-5-gets-it-to-generate-dangerous-info-despite-openais-new-safety-tech" class="citation-link">Tenable GPT-5 Jailbreak Research</a></li>
+                        <li>• <a href="https://www.lumenova.ai/ai-experiments/openai-gpt51-safety-theater/" class="citation-link">GPT-5.1 Safety Theater Analysis - Lumenova.ai</a></li>
+                        <li>• <a href="https://arxiv.org/html/2507.04673v1" class="citation-link">Trojan Horse Prompting Paper - arxiv.org</a></li>
+                        <li>• Multiple vendor security documentation and academic research papers</li>
+                    </ul>
+                    
+                    <div class="mt-8 p-4 bg-yellow-500/10 border border-yellow-500/30 rounded-lg">
+                        <p class="text-yellow-300 text-sm"><strong>⚠️ Disclaimer:</strong> This index is for educational and research purposes only. Data is compiled from publicly available sources and may not reflect the most current model versions. Always consult official documentation and conduct your own security assessments before deploying AI models in production environments.</p>
+                    </div>
+                </div>
             </section>
         </div>
-
     </main>
 
-    <footer class="text-center py-8 text-gray-500 text-sm font-mono space-y-3">
-        <p>This report is for educational and research purposes only. Vulnerabilities are disclosed responsibly to aid in improving AI safety.</p>
-        <p>Data compiled from 18+ peer-reviewed studies and security assessments (2024-2025).</p>
-        <p class="mt-4">&copy; 2025 UltraZartrex. All rights reserved.</p>
-    </footer>
-    
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            // --- Matrix Background Script ---
-            const canvas = document.getElementById('matrix-canvas');
-            const ctx = canvas.getContext('2d');
-            let width, height, columns, rainDrops, animationFrameId;
-            const fontSize = 16;
-            const alphabet = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン01';
-            
-            function setupMatrix() {
-                width = canvas.width = window.innerWidth;
-                height = canvas.height = window.innerHeight;
-                columns = Math.floor(width / fontSize);
-                rainDrops = Array(columns).fill(1).map(() => Math.random() * height);
-            }
+        // Matrix rain effect
+        const canvas = document.getElementById('matrix-canvas');
+        const ctx = canvas.getContext('2d');
 
-            function animate() {
-                ctx.fillStyle = 'rgba(13, 17, 23, 0.05)';
-                ctx.fillRect(0, 0, width, height);
-                ctx.fillStyle = 'var(--primary-glow)';
-                ctx.font = fontSize + 'px monospace';
-                for (let i = 0; i < rainDrops.length; i++) {
-                    const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
-                    ctx.fillText(text, i * fontSize, rainDrops[i] * fontSize);
-                    if (rainDrops[i] * fontSize > height && Math.random() > 0.975) {
-                        rainDrops[i] = 0;
-                    }
-                    rainDrops[i]++;
-                }
-                animationFrameId = requestAnimationFrame(animate);
-            }
-            
-            const motionQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
-            if (!motionQuery.matches) {
-                setupMatrix();
-                animate();
-                let resizeTimeout;
-                window.addEventListener('resize', () => { 
-                    clearTimeout(resizeTimeout);
-                    resizeTimeout = setTimeout(() => {
-                        cancelAnimationFrame(animationFrameId);
-                        setupMatrix();
-                        animate(); 
-                    }, 100);
-                });
-            }
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
 
-            // --- Chart.js Summary Chart ---
-            const chartCtx = document.getElementById('difficultyChart').getContext('2d');
-            new Chart(chartCtx, {
-                type: 'bar',
-                data: {
-                    labels: ['Difficulty 1 (Easy)', 'Difficulty 2', 'Difficulty 3', 'Difficulty 4', 'Difficulty 5 (Hard)'],
-                    datasets: [{
-                        label: '# of Models',
-                        data: [25, 6, 4, 2, 1],
-                        backgroundColor: [ 'rgba(239, 68, 68, 0.4)', 'rgba(249, 115, 22, 0.4)', 'rgba(234, 179, 8, 0.4)', 'rgba(34, 197, 94, 0.4)', 'rgba(20, 184, 166, 0.4)'],
-                        borderColor: [ '#ef4444', '#f97316', '#eab308', '#22c55e', '#14b8a6' ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    indexAxis: 'y',
-                    scales: {
-                        x: { beginAtZero: true, ticks: { color: '#c9d1d9', font: { family: "'JetBrains Mono', monospace" } }, grid: { color: 'rgba(255,255,255,0.1)' } },
-                        y: { ticks: { color: '#c9d1d9', font: { family: "'JetBrains Mono', monospace" } }, grid: { display: false } }
-                    },
-                    plugins: {
-                        legend: { display: false },
-                        title: { display: true, text: 'Number of Models by Vulnerability Tier', color: '#c9d1d9', font: { size: 16, family: "'JetBrains Mono', monospace" } }
-                    }
+        const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()';
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+        const drops = Array(Math.floor(columns)).fill(1);
+
+        function draw() {
+            ctx.fillStyle = 'rgba(13, 17, 23, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = '#22d3ee';
+            ctx.font = fontSize + 'px monospace';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = letters[Math.floor(Math.random() * letters.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                    drops[i] = 0;
                 }
-            });
+                drops[i]++;
+            }
+        }
+
+        setInterval(draw, 33);
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
         });
     </script>
 </body>
